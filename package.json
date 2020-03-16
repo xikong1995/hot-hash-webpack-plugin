@@ -1,19 +1,19 @@
 {
-  "name": "hot-hash-webpack-plugin",
-  "version": "1.0.0",
-  "description": "a hot-update hash tool",
-  "main": "index.js",
-  "repository": "https://github.com/xikong1995/hot-hash-webpack-plugin.git",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "hot-update",
-    "webpack-hash"
-  ],
-  "author": "zhoulei",
-  "license": "MIT",
-  "dependencies": {
-    "crypto": "^1.0.1"
-  }
+    "name": "hot-hash-webpack-plugin",
+    "version": "1.0.1",
+    "description": "a hot-update hash tool",
+    "main": "index.js",
+    "repository": "https://github.com/xikong1995/hot-hash-webpack-plugin.git",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "hot-update",
+        "webpack-hash"
+    ],
+    "author": "zhoulei",
+    "license": "MIT",
+    "dependencies": {
+        "crypto": "^1.0.1"
+    }
 }
