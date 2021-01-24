@@ -8,7 +8,7 @@ class HotHashWebpackPlugin {
     }
 
     apply(compiler) {
-        compiler.hooks.afterEmit.tapAsync('BuildHashWebpackPlugin', (compilation, callback) => {
+        compiler.hooks.afterEmit.tapAsync('HotHashWebpackPlugin', (compilation, callback) => {
             const outputPath = compiler.options.output.path;
             const buildJsonFile = path.resolve(outputPath, 'filesinfo.json');
             const fileInfoList = [];
