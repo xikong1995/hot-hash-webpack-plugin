@@ -1,6 +1,6 @@
 {
     "name": "hot-hash-webpack-plugin",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "a hot-update hash tool",
     "main": "index.js",
     "repository": "https://github.com/xikong1995/hot-hash-webpack-plugin.git",
